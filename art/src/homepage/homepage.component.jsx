@@ -9,7 +9,7 @@ class HomePage extends Component {
         <div className="background"></div>
         <div className="mainheading">            
           <h1>The Art Page</h1>          
-          <p>Browse and make an online purchase</p>
+          <h3>Browse and make an online purchase</h3>
           <ImageCarousel></ImageCarousel>
         </div>        
       </div>
