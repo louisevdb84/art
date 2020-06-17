@@ -1,5 +1,30 @@
-$myColor: red;
+$backGroundImage: "https://images.unsplash.com/photo-1523895665936-7bfe172b757d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80";
 
-h1 {
-    color: $myColor;
+
+.homepage {
+
+     z-index: 1;
+
+    & .background {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: url($backGroundImage) center center;
+        opacity: .4;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    & .mainheading{
+         position: absolute;         
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+    }
 }
+
