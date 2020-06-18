@@ -3,6 +3,7 @@ import './homepage.style.scss';
 import ImageCarousel from './carousel/carousel.component';
 import About from '../about/about.component';
 import Project from '../projects/project/project.component';
+import Contact from '../contact/contact.component';
 
 class HomePage extends Component {
   render() {
@@ -23,6 +24,9 @@ class HomePage extends Component {
         </div>
         <div>
           <Project></Project>
+        </div>
+          <div>
+          <Contact></Contact>
         </div>
       </div>
     );

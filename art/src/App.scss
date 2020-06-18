@@ -33,7 +33,7 @@ $paragraphcolor: rgb(38, 0, 115);
       font-size: 25px;
   }
 
-p {
+p, label {
     font-family: $paragraphfont;
     color: $paragraphcolor;
     font-weight: 500;

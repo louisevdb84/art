@@ -29,11 +29,11 @@ class Navigation extends Component {
              <ScrollIntoView selector="#project">
               <Nav.Link>Projects</Nav.Link>
             </ScrollIntoView>                    
-            <Nav.Link href="#link">Contact</Nav.Link>
-          </Nav>
-           <ScrollIntoView selector="#project">
-              <Nav.Link>Webshop</Nav.Link>
-            </ScrollIntoView>        
+              <ScrollIntoView selector="#contact">
+              <Nav.Link>Contact</Nav.Link>
+            </ScrollIntoView>   
+          </Nav>          
+          <Nav.Link href="/webshop">Webshop</Nav.Link>
         </Navbar.Collapse>
       </Navbar>
     );
