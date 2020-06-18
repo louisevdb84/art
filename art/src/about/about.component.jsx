@@ -14,7 +14,7 @@ class About extends Component {
               src="https://images.unsplash.com/photo-1457449940276-e8deed18bfff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
             />
             <Card.Body>
-              <Card.Title><h3>About Me</h3></Card.Title>
+              <Card.Title><h1>About Me</h1></Card.Title>
               <Card.Text>
                 <p>
                         Wat is Lorem Ipsum ? Lorem Ipsum is slechts een proeftekst uit
