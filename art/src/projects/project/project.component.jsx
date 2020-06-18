@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import projects from '../../shared/projects';
 import '../project/project.styles.scss';
-
+import {Card} from 'react-bootstrap';
 
 class Project extends Component {
   render() {
-      return (
-          <div id="project">
-              
-              <br></br>
+    return (        
+      <div id="project">
+        <Card>
+                <br></br>
               <h1>My Projects</h1>              
               <br></br>
               <div className="gallery"> 
@@ -24,6 +24,7 @@ class Project extends Component {
             ))}     
             
       </div>
+        </Card>
     </div>
         
     );
