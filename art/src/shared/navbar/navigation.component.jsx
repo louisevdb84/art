@@ -33,7 +33,7 @@ class Navigation extends Component {
               <Nav.Link>Contact</Nav.Link>
             </ScrollIntoView>   
           </Nav>          
-          <Nav.Link href="/webshop">Webshop</Nav.Link>
+          <Nav.Link style={{color: "rgba(255,255,255,.5)"}} href="/webshop">Webshop</Nav.Link>
         </Navbar.Collapse>
       </Navbar>
     );
