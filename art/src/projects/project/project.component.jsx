@@ -14,11 +14,13 @@ class Project extends Component {
               <div className="gallery"> 
                   {projects.map((item, key) => (
                       <div class="container">
-                          <div class="middle">
-                              <div class="text">{item.name}</div>
-                        </div>
+                          <p class="middle">
+                              <div class="text">{item.description}</div>
+                        </p>
                         <img className="projectimage" src={item.image}></img>                    
-                        
+                          <div class="title">
+                              <p class="text">{item.name}</p>
+                        </div>
                     </div>
                 
             ))}     
