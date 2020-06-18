@@ -5,7 +5,7 @@ import {Card} from 'react-bootstrap';
 class About extends Component {
   render() {
     return (
-      <div className="about">
+      <div id="about" className="about">
         <div className="background"></div>
         <div className="content">
           <Card style={{ width: "100%" }}>
