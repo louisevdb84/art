@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './homepage.style.scss';
 import ImageCarousel from './carousel/carousel.component';
 import About from '../about/about.component';
+import Project from '../projects/project/project.component';
 
 class HomePage extends Component {
   render() {
@@ -10,10 +11,19 @@ class HomePage extends Component {
         <div className="background"></div>
         <div className="mainheading">            
           <h1>The Art Page</h1>          
+          <br></br>
           <h3>Browse and make an online purchase</h3>
-          <ImageCarousel></ImageCarousel>
-          <About></About>
+          <br>
+          </br>
+
+          <ImageCarousel></ImageCarousel>          
         </div>        
+        <div>
+          <About></About>
+        </div>
+        <div>
+          <Project></Project>
+        </div>
       </div>
     );
   }

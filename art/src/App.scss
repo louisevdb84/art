@@ -12,11 +12,12 @@ $paragraphcolor: rgb(38, 0, 115);
     left: 0;
     right: 0;
     background: url($backGroundImage) center center;
-    opacity: .2;
+    opacity: .1;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;      
+    border-radius: 30px;
 }
   h1 {
       font-family: $headerfont;
